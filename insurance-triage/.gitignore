@@ -1,0 +1,42 @@
+# Environment variables
+.env
+.env.local
+.env*.local
+backend/.env
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Next.js
+frontend/nextjs-app/.next/
+frontend/nextjs-app/out/
+
+# AI tooling / skills
+.kiro/
+.agents/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Python
+*.egg-info/
+.pytest_cache/
